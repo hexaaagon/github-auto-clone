@@ -1,0 +1,22 @@
+{
+  "name": "git-auto-clone",
+  "version": "0.0.1--ALPHA",
+  "description": "Just a simple Auto Clone.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hexaa Scoooolzs",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@octokit/core": "^5.2.0",
+    "child-process-promise": "^2.2.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-cron": "^3.0.3",
+    "quick.db": "^9.1.7",
+    "tree-kill": "^1.2.2",
+    "write-file-atomic": "^5.0.1"
+  }
+}
